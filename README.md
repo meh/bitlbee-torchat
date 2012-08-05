@@ -13,12 +13,12 @@ Building and Installing
 -----------------------
 
 ```
-$ git clone https://github.com/jgeboski/bitlbee-steam.git
-$ cd bitlbee-steam
+$ git clone https://github.com/meh/bitlbee-torchat.git
+$ cd bitlbee-torchat
 $ autoreconf -fi
 $ ./configure
 $ make
-$ make install
+# make install
 ```
 
 You also need Ruby 1.9 and to install the torchat gem
