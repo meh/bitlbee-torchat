@@ -5,8 +5,7 @@ Usage
 -----
 
 ```
-account add steam <username> <password>
-account <acc> set authcode <code>
+account add torchat <username> <password or whatever>
 ```
 
 Building and Installing
