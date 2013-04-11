@@ -14,7 +14,7 @@ Building and Installing
 ```
 $ git clone https://github.com/meh/bitlbee-torchat.git
 $ cd bitlbee-torchat
-$ autoreconf -fi
+$ ./autogen.sh
 $ ./configure
 $ make
 # make install
