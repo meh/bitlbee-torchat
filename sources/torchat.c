@@ -913,7 +913,7 @@ static void torchat_init(account_t *acc)
 	s->flags |= ACC_SET_OFFLINE_ONLY;
 
 	s = set_add(&acc->set, "id", NULL, torchat_dont_set, acc);
-	s->flags |= ACC_SET_NOSAVE;
+	s->flags |= SET_NOSAVE;
 
 	s = set_add(&acc->set, "display_name", NULL, torchat_set_display_name, acc);
 
